@@ -1,0 +1,171 @@
+@import 'reset.css';
+
+.container {
+	background-color: #f1f1f1;
+	width: 1200px;
+	margin: 0 auto;
+	border-top: 3px solid orange;
+	
+
+}
+.wrapper {
+	
+	margin: 0 auto;
+	background-color: #69d2e7;
+
+}
+.blok {
+	height: 267px;
+	background-color: #fff;
+}
+
+
+.about {
+	height: 267px;
+	background-color: #fff;
+	margin-top: -25px;
+	margin-left: 165px;
+}
+.about_us {
+	background-color: #fff;
+	width: 835px;
+	height: 284px;	
+	margin: 0 auto;
+	border-radius: 8px;
+	margin-top: -120px;
+	border: 1px solid #f1f1f1;
+	box-shadow: 0 0 20px rgba(0,0,0,0,0,0);
+	position: relative;
+}
+.about-top {
+	width: 835px;
+	height: 150px;
+	text-align: center;
+	margin: 0 auto;
+}
+.about-top-line {
+	width: 390px;
+	height: 8px;
+	border-top: 1px solid #f1f1f1;
+	margin: 0 auto;
+}
+.about-bot {
+	
+	text-align: center;
+	
+}
+.content {
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+
+
+}
+
+.header {
+	padding-top: 35px;
+	height: 470px;
+
+}
+.logo {
+	display: inline-block;
+}
+.logo img {
+	float: left;
+	margin-right: 11px;
+
+}
+.logo-div {
+	padding-left: 11px;
+}
+.company-name,
+.company-description {
+	display: block;
+	white-space: nowrap;
+}
+.company-name {
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.company-description {
+	font-size: 17px;
+}
+.hello {
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 700;
+	padding-top: 94px;
+	padding-bottom: 180px;
+}
+.hello_title {
+	font-size: 84px;
+	line-height: 1em;
+
+}
+.hello_description {
+	font-size: 31px;
+	line-height: 1em;
+}
+.icon {
+	
+	margin-top: 97px;
+	height: 267px;
+
+}
+ .icon_li {
+	display: inline-block;
+	width: 100px;	
+	border-radius: 2px;
+	background-color: #fff;
+	margin-left: 184px;
+
+}
+.main {
+	background-color: #fa6900;
+	position: relative;
+	overflow: hidden;
+	height: 532px;
+
+}
+.content {
+	position: relative;
+
+}
+.text {
+	color: 
+	padding-top: 100px;
+	max-width: 431px;
+}
+.shape {
+	width: 817px;
+	height: 817px;
+	background-color: #fff;
+	border-radius: 50%;
+	position: absolute;
+	z-index: 1;
+	top: 50%;
+	margin-top: -408.5 px;
+	right: -300px;
+}
+.shape::hover {
+	
+}
+.niz {
+	height: 550px;
+}
+.latest_icon {
+	float: right;
+	
+}
+.icon_li {
+	display: block;
+}
+.name_left {
+	float: left;
+	display: block;
+}
+.niz_text {
+	display: block;
+}

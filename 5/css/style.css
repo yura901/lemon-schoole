@@ -1,0 +1,68 @@
+@import 'reset.css';
+.container {
+	width: 1200px;
+	background-color: #69d2e7;
+}
+.content {
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	
+
+	}
+
+.logo {
+	display: inline-block;
+}
+.logo img {
+	float: left;
+	margin-right: 11px;
+
+}
+.logo-div {
+	padding-left: 11px;
+}
+.company-name,
+.company-description {
+	display: block;
+	white-space: nowrap;
+}
+.company-name {
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.company-description {
+	font-size: 17px;
+}
+.hello {
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 700;
+	padding-top: 94px;
+	padding-bottom: 180px;
+}
+.hello_title {
+	font-size: 84px;
+	line-height: 1em;
+
+}
+.hello_description {
+	font-size: 31px;
+	line-height: 1em;
+}
+.icon {
+	
+	margin-top: 97px;
+	height: 267px;
+}
+ .icon_li {
+	display: inline-block;
+	width: 100px;
+	
+	border-radius: 2px;
+	background-color: #fff;
+	margin-left: 184px;
+
+}
