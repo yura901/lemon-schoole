@@ -1,39 +1,42 @@
 @import 'reset.css';
-.container {
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.wrapper {
 	width: 1200px;
-	background-color: #69d2e7;
+	margin: 0 auto;
 }
 .content {
-	max-width: 1000px;
-	margin-left: auto;
-	margin-right: auto;
-	
+	width: 1000px;
 
-	}
-
+}
+.header {
+	width: 1200px;
+	height: 470px;
+	background-color: #69d2e7;
+	border-top: 5px solid orange;
+}
 .logo {
 	display: inline-block;
+	margin-left: 100px;
+	margin-top: 40px;
 }
 .logo img {
 	float: left;
 	margin-right: 11px;
 
 }
-.logo-div {
-	padding-left: 11px;
-}
-.company-name,
-.company-description {
+.company_name,
+.company_description {
 	display: block;
 	white-space: nowrap;
 }
-.company-name {
+.company_name {
 	font-size: 20px;
 	text-transform: uppercase;
 	font-weight: 700;
-}
-.company-description {
-	font-size: 17px;
 }
 .hello {
 	text-align: center;
@@ -52,17 +55,138 @@
 	font-size: 31px;
 	line-height: 1em;
 }
-.icon {
-	
-	margin-top: 97px;
+
+.about_blok {
 	height: 267px;
+	background-color: #fff;
 }
+.about_us {
+	background-color: #fff;
+	width: 835px;
+	height: 284px;	
+	margin-left: 165px;
+	margin-right: 200px;
+	border-radius: 8px;
+	margin-top: -385px;
+	border: 1px solid #f1f1f1;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0, 0);
+	position: relative;
+	
+	
+}
+.about_top {
+	width: 835px;
+	height: 150px;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 22px;
+}
+.about_top p {
+	padding-top: 60px;
+	font-family: Arial Bold;
+	font-size: 36px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.about_top_line {
+	width: 390px;
+	height: 27px;
+	border-top: 1px solid #f1f1f1;
+	margin: 0 auto;
+}
+.about_bot {
+	font-family: Arial Regular;
+	padding-left: 52px;
+	
+}
+.content {
+	width: 1000px;
+	background-color: #f1f1f1;
+}
+.icon {
+	height: 267px;
+	background-color: #f1f1f1;
+	width: 1200px;	
+}
+
  .icon_li {
 	display: inline-block;
-	width: 100px;
-	
+	width: 162px;
+	height: 150px;	
 	border-radius: 2px;
 	background-color: #fff;
-	margin-left: 184px;
+	margin-left: 124px;
+
+}
+.icon_li span {
+	display: inline-block;
+}
+.orange {
+	height: 530px;
+	background-color: #fa6900;
+	width: 1200px;
+}
+
+.company {
+	height: 552px;
+	width: 1200px;
+
+}
+.company_name {
+	float: left;
+	display: block;
+}
+.company_post {
+	float: right;
+
+}
+.company_icon {
+	display: block;
+
+}
+.shape {
+	width: 817px;
+	height: 817px;
+	background-color: #fff;
+	border-radius: 50%;
+	position: absolute;
+	z-index: 1;
+	top: 50%;
+	margin-top: -408.5px;
+	right: -300px;
+}
+.shape::after {
+	content: '';
+	display: block;
+	background-color: #fff;
+	height: 100%;
+	width: 99999px;
+	left: 580px;
+	top: 0;
+	position: absolute;
+}
+.shape_image {
+	position: absolute;
+	top: 199px;
+	left: 97px;
+}
+.footer_content {
+	width: 1200px;
+	height: 68px;
+	background-color: #69d2e7;
+	font-size: 14px;
+	font-family: Myriad Pro Regular;
+	margin-top: 520px;
+}
+.text_left {
+	padding-left: 100px;
+	line-height: 68px;
+	color: #fff;
+
+}
+.text_right {
+	padding-left: 540px;
+	line-height: 68px;
+	color: #fff;
 
 }
