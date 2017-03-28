@@ -1,0 +1,96 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.wrapper {
+	width: 1280px;
+	margin: 0 auto;
+	background-color: #ffffff;
+
+}
+.menu {
+	height: 61px;
+	background-color: #02918c;
+
+}
+.header_img {
+	background: url(images/header.jpg);
+	height: 500px;
+}
+.header_text {
+	text-align: center;
+	color: #fff;
+	padding-top: 208px;
+}
+.about_us_zag {
+	text-align: center;
+	font-size: 22px;
+	color: #02918c;
+	margin-top: 98px;
+
+}
+.about_us_text {
+	text-align: center;
+	margin-top: 44px;
+
+}
+.instrument {
+	width: 250px;
+	display: inline-block;
+	text-align: center;
+	border-right: 2px solid grey;
+	
+
+}
+.instrument_text p {
+	font-size: 10px;
+	margin-top: 10px;
+}
+.center {
+	width: 1280px;
+	
+}
+
+.servise {
+	background-color: #f0f0e8;
+	width: 50%;
+	height: 727px;
+	float: left;
+	
+}
+.ruki {
+	background-image: url(images/ruki.jpg);
+	width: 636px;
+	height: 727px;
+	float: left;
+	
+}
+
+.service_text {
+	margin-top: 84px;
+}
+.service_blok {
+	display: inline-block;
+	padding-top: 22px;
+	width: 250px;
+	height: 165px;
+}
+.my_work p {
+	padding-top: 110px;
+	font-size: 32px;
+	text-align: center;
+}
+ .my_work_text {
+	text-align: center;
+	padding-top: 70px;
+}
+.foto {
+	height: 478px;
+	background-color: black;
+}
+.foto_img {
+	width: 320px;
+	height: 240px;
+	background-image: url(images/ohi.jpg);
+}
