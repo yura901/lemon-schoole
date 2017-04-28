@@ -2,27 +2,63 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: Myriad Pro;
 }
 .wrapper {
-	width: 1280px;
+	max-width: 1200px;
 	margin: 0 auto;
 	background-color: #ffffff;
 
+}
+.header {
+	height: 62px;
+	background-color: #02918c;
+}
+.header_left {
+
+	float: left;
+}
+.logo {
+
+	font-size: 26px;
+	
+	color: #cfc91d;
+	padding-left: 49px;
+	line-height: 62px;
+	text-transform: uppercase;
+	
+}
+
+.header_right {
+	float: right;
+}
+.header_menu_li {
+	display: inline-block;
+	line-height: 62px;
+	color: #fff;
+	font-size: 12px;
+	text-transform: uppercase;
+	margin-left: 50px;
+	text-transform: uppercase;
+}
+.img {
+	max-width: 100%;
 }
 .menu {
 	height: 61px;
 	background-color: #02918c;
 
 }
-.header_img {
-	background: url(images/header.jpg);
-	height: 500px;
+.bur {
+	
 }
-.header_text {
-	text-align: center;
-	color: #fff;
-	padding-top: 208px;
+.header_foto {
+	height: 728px;
+	background-image: cover;
+	margin: 0 auto;
 }
+
+
 .about_us_zag {
 	text-align: center;
 	font-size: 22px;
@@ -37,9 +73,12 @@
 }
 .instrument {
 	width: 250px;
+	height: 252px;
 	display: inline-block;
 	text-align: center;
 	border-right: 2px solid grey;
+	margin-top: 80px;
+	font-size: 700;
 	
 
 }
@@ -86,11 +125,92 @@
 	padding-top: 70px;
 }
 .foto {
-	height: 478px;
-	background-color: black;
+	
+	
 }
-.foto_img {
-	width: 320px;
+.foto_ohki {
+	width: 25%;
+  	background-size: cover;
 	height: 240px;
-	background-image: url(images/ohi.jpg);
+	
+	background-image: url(images/ohki.jpg);
+	display: inline-block;
+	
+	
+}
+.foto_lampa {
+	width: 25%;
+  	background-size: cover;
+	height: 240px
+	background-image: url(images/lampa.png);
+	display: inline-block;
+
+	
+}
+.foto_avto {
+	width: 25%;
+ 	background-size: cover;
+	height: 240px
+	background-image: url(images/avto.png);
+	display: inline-block;
+	
+}
+.foto_lebed {
+	width: 25%;
+  		background-size: cover;
+	height: 240px
+	background-image: url(images/lebed.png);
+	display: inline-block;
+	
+}
+.foto_banan {	
+	width: 25%;
+  	background-size: cover;
+	height: 240px
+	background-image: url(images/banan.png);
+	display: inline-block;
+	
+}
+.foto_hover {
+	width: 25%;
+  	background-size: cover;
+	height: 240px
+	background-image: url(images/hover.png);
+	display: inline-block;
+	
+}
+.foto_volos {
+	width: 25%;
+  	background-size: cover;
+	height: 240px
+	background-image: url(images/volos.png);
+	display: inline-block;
+	
+}
+.foto_dev {
+	width: 25%;
+  	background-size: cover;
+	height: 240px
+	background-image: url(images/dev.png);
+	display: inline-block;
+	
+}
+
+.contact_me {
+	height: 333px;
+	text-align: center;
+	padding-top: 100px;
+}
+.contac_me_text {
+	padding-top: 75px;
+	text-align: center;
+}
+.forma {
+	height: 566px;
+	background: black;
+}
+.name {
+	text-align: center;
+	color: #fff;
+	padding-top: 69px;
 }

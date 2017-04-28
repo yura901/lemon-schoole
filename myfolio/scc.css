@@ -1,0 +1,16 @@
+@media screen (max-width: 980px) {
+	.wrapper {
+		margin: 0 10px;
+	}
+}
+.img {
+	max-width: 100%;
+	height: auto;
+}
+@media screen (max-width: 980px) {
+	. {
+		float: none;
+		width: 100%;
+	}
+}
+
